@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,34 @@
 <body style="background-color: black;color: white;">
     <h1 id="happy"></h1>
     <h2><a href="https://suno.com/song/15b53aae-1f40-4f48-8098-d06197c7592f"  id="zakir" style="color: antiquewhite;"></a></h2>
-    <script src="scr.js"></script>
+
+    <div class="img">
+        <video src="r.mp4" controls loop style="margin: auto; width: 300px; margin-left: 100px; margin-top: 60px;"></video>
+    </div>
+
+    <script>
+        function rita() {
+            const imgElement = document.querySelector('.img'); 
+            setTimeout(() => {
+               
+            }, 4000);
+
+
+        }
+        rita();
+        setTimeout(() => {
+            document.getElementById('happy').innerHTML = '3';
+        }, 1000);
+        setTimeout(() => {
+            document.getElementById('happy').innerHTML = '2';
+        }, 2000);
+        setTimeout(() => {
+            document.getElementById('happy').innerHTML = '1';
+        }, 3000);
+        setTimeout(() => {
+            document.getElementById('happy').innerHTML = 'AD GUNUN MUBAREK';
+            document.getElementById('zakir').innerHTML = 'Bura bas';
+        }, 4000);
+    </script>
 </body>
 </html>
